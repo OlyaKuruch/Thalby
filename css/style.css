@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header .logo{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+header{
+    padding: 15px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1064px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .container a img{
+    top: 0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin-right: 28px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+header nav ul li:last-of-type{
+    margin-right: 0;
+}
+header .icon_menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header img{
+    margin-right: 26px;
+    position: relative;
+    bottom: 10px;
+}
+header .img3{
+    margin-right: 0;
+}
+.main_banner{
+    background: #F0EFEB;
+    border-radius: 0;
+}
+.main_banner .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_banner article{
+    max-width: 544px;
+}
+.main_banner h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    color: #000000;
+}
+.main_banner p{
+    font-family: 'Roboto',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 42px;
+    padding-bottom: 26px;
+}
+.main_banner a{
+    font-family: 'Roboto',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: black;
+    border: 1px solid black;
+    padding: 7px 23px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.main_banner_img{
+    position: relative;
+    right: -100px;
+}
+.best_sellers{
+    text-align: center;
+    padding: 60px 0 248px;
+}
+.best_sellers h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 27px;
+}
+.best_sellers h2:last-of-type {
+     padding-bottom: 52px;
+ }
+.best_sellers p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 47px;
+}
+.best_sellers p:last-of-type{
+    padding-bottom: 88px;
+}
+.best_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.best_cards h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 27px;
+    padding-bottom: 17px;
+}
+.best_cards h6{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.best_cards a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-bottom: 248px;
+}
