@@ -8,7 +8,7 @@ header .logo{
     top: 16px;
 }
 header{
-    padding: 15px 0;
+    padding: 15px 0 0 0;
 }
 .container{
     margin: auto;
@@ -17,9 +17,6 @@ header{
 header .container{
     display: flex;
     justify-content: space-between;
-}
-header .container a img{
-    top: 0;
 }
 header ul{
     list-style: none;
@@ -40,12 +37,15 @@ header nav ul li a{
 header nav ul li:last-of-type{
     margin-right: 0;
 }
+.header_logo{
+    top: 0;
+}
 header .icon_menu{
     display: flex;
     list-style: none;
     align-items: center;
 }
-header img{
+header .icon_menu img{
     margin-right: 26px;
     position: relative;
     bottom: 10px;
@@ -95,6 +95,7 @@ header .img3{
     padding: 7px 23px;
     border-radius: 100px;
     text-decoration: none;
+    display: inline-block;
 }
 .main_banner_img{
     position: relative;
@@ -134,6 +135,13 @@ header .img3{
     display: flex;
     justify-content: space-between;
 }
+.best_cards article{
+    max-width: 314px;
+}
+.best_cards article img{
+    width: 100%;
+    display: block;
+}
 .best_cards h3{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -164,5 +172,20 @@ header .img3{
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
-    padding-bottom: 248px;
+    padding-bottom: 12px;
+    display: inline-block;
+}
+.owl-dot span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #869791;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.owl-dot.active span{
+    background: darkslategray;
+}
+.owl-dot span:first-of-type{
+
 }
