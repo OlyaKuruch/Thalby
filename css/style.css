@@ -175,6 +175,10 @@ header .img3{
     padding-bottom: 12px;
     display: inline-block;
 }
+.owl-item article{
+    display: flex;
+    justify-content: center;
+}
 .owl-dot span{
     display: inline-block;
     width: 13px;
